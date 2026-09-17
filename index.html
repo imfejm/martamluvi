@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marta Mluví</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero card">
+        <div class="hero-copy">
+          <h1>MARTA MLUVÍ</h1>
+          <p class="lead">
+            Ahoj, jsem marta a zřejmě jsme se už potkali. Potřebuješ na mě
+            kontakt.
+          </p>
+        </div>
+
+        <div class="hero-photo">
+          <img src="img/portret.png" alt="Marta Mluví" />
+        </div>
+
+        <div class="photo-fill" aria-hidden="true"></div>
+
+        <div id="kontakt" class="contact-group">
+          <div class="contact-copy">
+            <p class="section-label">Kontakt</p>
+            <h2>Nech si od mě odpověď.</h2>
+
+            <div class="contact-row">
+              <span>E-mail</span>
+              <a href="mailto:ahoj@martamluvi.cz">ahoj@martamluvi.cz</a>
+            </div>
+
+            <div class="contact-row">
+              <span>Telefon</span>
+              <a href="tel:+420737754951">737 754 951</a>
+            </div>
+          </div>
+
+          <form class="contact-form">
+            <h3>Kontaktní formulář</h3>
+
+            <label>
+              <span>Text</span>
+              <textarea rows="4" placeholder="Napiš, co potřebuješ."></textarea>
+            </label>
+
+            <div class="form-grid">
+              <label>
+                <span>Tvoje jméno</span>
+                <input type="text" placeholder="Tvoje jméno" />
+              </label>
+
+              <label>
+                <span>Tvůj e-mail</span>
+                <input type="email" placeholder="Tvůj e-mail" />
+              </label>
+
+              <label>
+                <span>Tvůj telefon</span>
+                <input type="tel" placeholder="Tvůj telefon" />
+              </label>
+            </div>
+
+            <button type="submit" class="button secondary">Odeslat</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>IČO: 12345678</p>
+    </footer>
+  </body>
+</html>
