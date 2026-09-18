@@ -46,28 +46,32 @@
             </div>
           </div>
 
-          <form class="contact-form">
+          <form id="order-form" class="contact-form">
             <h3>Kontaktní formulář</h3>
 
             <label>
               <span>Text</span>
-              <textarea rows="4" placeholder="Napiš, co potřebuješ."></textarea>
+              <textarea
+                rows="4"
+                placeholder="Napiš, co potřebuješ."
+                name="message"
+              ></textarea>
             </label>
 
             <div class="form-grid">
               <label>
                 <span>Tvoje jméno</span>
-                <input type="text" placeholder="Tvoje jméno" />
+                <input type="text" placeholder="Tvoje jméno" name="name" />
               </label>
 
               <label>
                 <span>Tvůj e-mail</span>
-                <input type="email" placeholder="Tvůj e-mail" />
+                <input type="email" placeholder="Tvůj e-mail" name="email" />
               </label>
 
               <label>
                 <span>Tvůj telefon</span>
-                <input type="tel" placeholder="Tvůj telefon" />
+                <input type="tel" placeholder="Tvůj telefon" name="phone" />
               </label>
             </div>
 
@@ -84,4 +88,6 @@
       <p><a href="gdpr.html">Zásady zpracování osobních údajů (GDPR)</a></p>
     </footer>
   </body>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="index.js" defer></script>
 </html>
